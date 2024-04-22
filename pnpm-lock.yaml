@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: false
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@actions/core':
     specifier: ^1.10.0
@@ -18,9 +22,6 @@ dependencies:
     version: 1.0.2
 
 devDependencies:
-  '@tsconfig/node16':
-    specifier: ^1.0.3
-    version: 1.0.3
   '@types/node':
     specifier: ^18.13.0
     version: 18.13.0
